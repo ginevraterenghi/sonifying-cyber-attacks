@@ -1,0 +1,373 @@
+html {
+	--video-width: 300px;
+}
+
+header {
+	margin-left: 1vh;
+	padding-right: 1vh;
+}
+
+main {
+	margin-top: 100px;
+	margin-bottom: 5vh;
+}
+
+.container {
+	padding-left: 5vh;
+	padding-right: 5vh;
+}
+
+/*! avoid stroke when click play button */
+* {
+	outline: none;
+}
+
+/*! ----font---- */
+@font-face {
+	font-family: ciu-regular;
+	src: url(./assets/font/ciu-regular.ttf);
+}
+
+@font-face {
+	font-family: ciu-italic;
+	src: url(./assets/font/ciu-italic.ttf);
+}
+
+@font-face {
+	font-family: ciu-bold;
+	src: url(./assets/font/ciu-bold.ttf);
+}
+
+@font-face {
+	font-family: helvetica-light;
+	src: url(./assets/font/helvetica.ttf);
+}
+
+
+/*! ------------------------------------------ NAVBAR ------------------------------------------ */
+
+.name {
+	margin-top: 0vh;
+	color: blue;
+	text-align: right;
+	font-size: 0rem;
+}
+
+.navbar {
+	background-color: white;
+	padding-left: 0px;
+}
+
+.navbar-toggler {
+	background-color: transparent;
+	border: transparent;
+/*	outline: none;*/
+}
+
+.button {
+	background-color: transparent;
+	border: transparent;
+	outline: none;
+}
+
+.navbar-toggler-icon {
+	border: 3px solid #f26122;
+	border-radius: 2px 2px 2px 2px;
+}
+
+/* Links inside the navbar */
+.navbar a {
+	/*	float: left;*/
+	display: block;
+	color: #f26122;
+	/*	text-align: center;*/
+	padding: 2vh;
+	text-decoration: none;
+/*	font-family: 'ciu-bold';*/
+}
+
+.navbar a:hover {
+	color: #f26122;
+	text-decoration: none;
+	font-family: 'ciu-bold';
+}
+
+/* style */
+.slim {
+	font-family: 'ciu-italic';
+}
+
+.ciccio {
+	font-family: 'ciu-bold';
+}
+
+/*! ---- menu collapsed---- */
+.name2 {
+	margin-top: 0vh;
+/*	font-family: 'ciu-bold';*/
+	color: #f26122;
+	text-align: left;
+	font-size: 1.7rem;
+}
+
+
+/*! ------------------------------------------ MAIN ------------------------------------------ */
+
+/* media */
+.mappa {
+	margin-top: 3vh;
+	margin-bottom: 3vh;
+	width: 300px;
+}
+
+
+/*! ----general---- */
+.intro {
+	font-family: 'Helvetica';
+	font-weight: 300;
+	font-size: 0.9rem;
+	padding-top: 1vh;
+	text-align: left;
+	line-height: 1.4rem;
+}
+
+.intro2 {
+	font-family: 'Helvetica';
+	font-weight: 300;
+	font-size: 0.9rem;
+	padding-top: 4vh;
+	padding-bottom: 2vh;
+	text-align: left;
+	line-height: 1.4rem;
+}
+
+
+/* FIRST PAGE */
+/* text */
+
+.title {
+	margin-top: 2vh;
+	font-family: 'ciu-regular';
+	color: #68246c;
+	font-size: 1.2rem;
+}
+
+.paper {
+	margin-top: 2vh;
+	font-family: 'ciu-regular';
+	color: lightgray;
+	font-size: 1rem;
+}
+
+/* link */
+.reference {
+	font-family: 'ciu-italic';
+	color: lightgray;
+}
+
+.reference:hover {
+	font-family: 'ciu-bold';
+	color: lightgray;
+	text-decoration: none;
+}
+
+
+/* PROTOTYPE PAGES */
+/* text */
+.prototype {
+	font-family: 'ciu-bold';
+	font-size: 1.5rem;
+}
+
+.chapter {
+	font-family: 'ciu-regular';
+	font-size: 1rem;
+}
+
+.orange {
+	margin-top: 3vh;
+	color: #f26122;
+}
+
+.purple {
+	margin-top: 1vh;
+	color: #68246c;
+}
+
+.district {
+	margin-left: 5vh;
+	margin-top: 1vh;
+	font-family: 'Helvetica';
+	font-weight: 300;
+	color: black;
+	font-size: 0.7rem;
+}
+
+
+/* SOUND TRACKS */
+/* text */
+
+.under {
+	font-family: 'Helvetica';
+	font-weight: 300;
+	font-size: 0.8rem;
+	margin-top: 1vh;
+	color: black;
+	font-weight: 200;
+}
+
+figcaption {
+	/*    padding-top: 2vh;*/
+	padding-bottom: 0.7vh;
+}
+
+
+
+/*! ------------------------------------------ FOOTER ------------------------------------------ */
+
+#fondo {
+	background: #f9dabe;
+}
+
+/*! media */
+.footer_img {
+	width: 30px;
+	height: auto;
+}
+
+/*! text */
+.infoTitle {
+	margin-left: 1vh;
+	margin-top: 2vh;
+	margin-bottom: 0.2vh;
+	font-family: 'ciu-regular';
+	font-weight: 200;
+	font-size: 0.4rem;
+}
+
+.info {
+	margin-left: 1vh;
+	margin-top: 0.2vh;
+	margin-bottom: 2.5vh;
+	font-family: 'Helvetica';
+	font-weight: 300;
+	font-size: 0.4rem;
+}
+
+.infoLogo {
+	margin-left: 1vh;
+	margin-top: 0.7vh;
+	margin-bottom: 2vh;
+}
+
+
+
+/*! ------------------------------------------ responsive ------------------------------------------ */
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+	.mappa {
+		width: 400px;
+	}
+	.title {
+		font-size: 1.5rem;
+		line-height: 1.8rem;
+	}
+	.intro {
+		font-size: 0.9rem;
+		line-height: 1.5rem;
+	}
+	.intro2 {
+		font-size: 0.9rem;
+		line-height: 1.5rem;
+	}
+	.paper {
+		font-size: 1rem;
+		line-height: 1.4rem;
+	}
+	.name {
+		font-size: 0rem;
+	}
+	.name2 {
+		font-size: 1.5rem;
+	}
+	.chapter {
+		font-size: 1rem;
+	}
+	.infoTitle {
+		font-size: 0.6rem;
+	}
+	.info {
+		font-size: 0.6rem;
+	}
+	
+	#link_appearance_nav {
+		padding-right: 10vh;
+	}
+}
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+	.mappa {
+		width: 400px;
+	}
+	.name {
+		font-size: 0rem;
+	}
+	.name2 {
+		font-size: 1.7rem;
+	}
+}
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+	.mappa {
+		width: 500px;
+	}
+	.footer_img {
+		width: 40px;
+		height: auto;
+	}
+	.name {
+		font-size: 1.6rem;
+	}
+	.name2 {
+		font-size: 0rem;
+	}
+	.intro {
+		font-size: 1rem;
+		line-height: 1.7rem;
+	}
+	.intro2 {
+		font-size: 1rem;
+		line-height: 1.7rem;
+	}
+	.chapter {
+		font-size: 1.1rem;
+	}
+	.infoTitle {
+		font-size: 0.7rem;
+	}
+	.info {
+		font-size: 0.7rem;
+	}
+}
+
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+	.name {
+		font-size: 2rem;
+	}
+	.name2 {
+		font-size: 0rem;
+	}
+}
+
+@media (min-width: 1400px) {
+	.name {
+		font-size: 2rem;
+	}
+	.name2 {
+		font-size: 0rem;
+	}
+}
