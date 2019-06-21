@@ -120,27 +120,43 @@ main {
 	width: 300px;
 }
 
+.viz {
+	margin-top: 3vh;
+	margin-bottom: 3vh;
+	width: 100%;
+}
+
 
 /*! ----general---- */
 .intro {
-	font-family: 'Helvetica';
+	font-family: 'ciu-regular';
 	font-weight: 300;
-	font-size: 0.9rem;
+	font-size: 1.4rem;
 	padding-top: 1vh;
+	margin-bottom: 4vh;
 	text-align: left;
-	line-height: 1.4rem;
+	line-height: 1.6rem;
 }
 
 .intro2 {
 	font-family: 'Helvetica';
 	font-weight: 300;
 	font-size: 0.9rem;
-	padding-top: 4vh;
-	padding-bottom: 2vh;
+	padding-top: 1vh;
+	padding-bottom: 1vh;
 	text-align: left;
 	line-height: 1.4rem;
 }
 
+.biblio {
+	font-family: 'Helvetica';
+	font-weight: 100;
+	font-size: 0.8rem;
+	margin-bottom: 1rem;
+	text-align: left;
+	line-height: 1.2rem;
+	color: dimgray;
+}
 
 /* FIRST PAGE */
 /* text */
@@ -149,7 +165,7 @@ main {
 	margin-top: 2vh;
 	font-family: 'ciu-regular';
 	color: #68246c;
-	font-size: 1.2rem;
+	font-size: 1rem;
 }
 
 .paper {
@@ -166,8 +182,8 @@ main {
 }
 
 .reference:hover {
-	font-family: 'ciu-bold';
-	color: lightgray;
+	font-family: 'ciu-italic';
+	color: black;
 	text-decoration: none;
 }
 
@@ -231,13 +247,12 @@ figcaption {
 
 /*! media */
 .footer_img {
-	width: 30px;
-	height: auto;
+	width: auto;
+	height: 30px;
 }
 
 /*! text */
 .infoTitle {
-	margin-left: 1vh;
 	margin-top: 2vh;
 	margin-bottom: 0.2vh;
 	font-family: 'ciu-regular';
@@ -246,8 +261,7 @@ figcaption {
 }
 
 .info {
-	margin-left: 1vh;
-	margin-top: 0.2vh;
+	margin-top: 0.5vh;
 	margin-bottom: 2.5vh;
 	font-family: 'Helvetica';
 	font-weight: 300;
@@ -255,7 +269,6 @@ figcaption {
 }
 
 .infoLogo {
-	margin-left: 1vh;
 	margin-top: 0.7vh;
 	margin-bottom: 2vh;
 }
@@ -270,7 +283,7 @@ figcaption {
 		width: 400px;
 	}
 	.title {
-		font-size: 1.5rem;
+		font-size: 1.2rem;
 		line-height: 1.8rem;
 	}
 	.intro {
@@ -325,8 +338,8 @@ figcaption {
 		width: 500px;
 	}
 	.footer_img {
-		width: 40px;
-		height: auto;
+		width: auto;
+		height: 45px;
 	}
 	.name {
 		font-size: 1.6rem;

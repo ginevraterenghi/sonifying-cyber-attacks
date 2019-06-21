@@ -30,9 +30,10 @@
 		<a class="name2 ciccio" href="index.html">project:</a>
 
 		<div class="collapse navbar-collapse justify-content-end" id="navbar">
-			<a class="slim" href="p1.html">I PROTOTYPE</a>
-			<a class="slim" href="p2.html">II PROTOTYPE</a>
-			<a class="slim" href="p3.html">III PROTOTYPE</a>
+			<a class="slim" href="p1.html">Context Analysis</a>
+			<a class="slim" href="p2.html">Prototypes</a>
+			<a class="slim" href="p3.html">Experiment</a>
+			<a class="slim" href="p3.html">Bibliography</a>
 		</div>
 	</header>
 
@@ -40,77 +41,118 @@
 	<main class="container col-md-7">
 
 		<div class="intro">
-			This website is a repository of sounds described in the master thesis:
-		</div>
-		
-		<div class="title">Sonificazione dei dati e sicurezza informatica nelle reti di distribuzione idrica.<br>Il caso C-Town
+			This project is a collaboration between the Design Department of Politecnico di Milano and the Engineering Systems Department of Singapore University of Technology and Design. Different disciplines have been involved. Stefano Galelli and Riccardo Taormina are environmental engineers, at the time of the project based on the Hong Kong Polytechnic University. Sara Lenzi is a doctoral researcher at Polimi University of Milan, specialized on Sound Design and Ginevra Terenghi worked on this project for the Master Thesis in Communication Design at the same University, supervised by Professor Paolo Ciuccarelli. 
 		</div>
 
+		<!--
 		<div class="paper">
-			Data used in this project refears to a study case developed for the international competition:
-			<br>Taormina, R. and Galelli, S., Deep-Learning Approach to the Detection and Localization of Cyber-Physical Attacks on Water Distribution Systems. Journal of Water Resources Planning and Management, 144(10), p.04018065, 2018 -
 			<a class="reference" target="_blank" href="https://github.com/rtaormina/aeed">Github repository reference</a>
 		</div>
+-->
 
+		<div class="title">Topic</div>
 		<div class="intro2">
-			The Project is based on three different Prototypes which correspond to three subsequent iterations of the sonification design.
-			<br>The following diagram illustrate the work process.
+			The project started from the need of a communication method useful to express the algorithm result and conveys the information required by the operator to monitor and intervene in case of attack on Water Supply System. 
+			<br>On one hand, the new technological tools, recently introduced, allow a more accurate monitoring of the components but, on the other, the possibility to control the system remotely increase the vulnerability to the external intrusions. The growing number of Cyber-physical attacks committed on the water distribution networks made necessary the introduction of an anomalies detection system.  
+			<br>A sonification code has been projected for the Water Supply Networks to allow the analysts to better monitor the state of the system, preventing Cyber Attacks. A state-of-the-art detection algorithm and datasets from the Battle of the Attack Detection Algorithm <a class="reference" target="_blank" href="https://batadal.net/">(BATADAL webiste)</a> were used. The goal of the Sonification is to precede the visual analysis currently used and eventually, make it easier. Sound would first, alert the analyst if something wrong is occurring, and second, drive him into a deeper analysis based on the visual interface. Giving the preliminary information to the user, sound can facilitate and make faster the detailed study necessary to understand the cause and solve the problem which provokes the anomaly.
 		</div>
 
-		<img class="mappa" src="./assets/structure.png">
+		<div class="title">Research Question</div>
+		<div class="intro2">
+			The research question driving our work is: Can the sound guarantee a constant monitoring of the state of the system, communicating, if an anomaly is occurring, the necessary information to drive the user into a deeper analysis on the visual interface?  
+		</div>
+
+		<div class="title">Hypothesis</div>
+		<div class="intro2">
+			Our hypothesis considers the sound particularly suitable to communicate the necessary information in this direction. During the working day, the visual attention of the user is already focused on different tasks which cannot guarantee the concentration required to detect the irregularities. 
+			<br>Because of this reason, and also of the quantity and the quality of data, the use of sound has been suggested by the context. Literature highlights the role of the sound to cover time stamp, pattern and big amount and different kind of data, which are all features present in this field.    
+		</div>
+
+		<div class="title">Research Method</div>
+		<div class="intro2">
+			The state of the system and the level of the anomalies are reported by the sonifications. The level is calculated considering the difference between the data collected by sensor and the same values predicted from an algorithm  <a class="reference" target="_blank" href="https://github.com/rtaormina/aeed">(AEED - AutoEncoders for Event)</a> which does not consider any irregularity.  
+		</div>
+
+		<div class="title">Results</div>
+		<div class="intro2">
+			The first hypothesis seems to be confirmed during the test. Users have positively approved the sonifications, being willing to use the prototype in their real work activity. The results show how they understood the main information covered by the sound. 
+			<br>More difficulties are revealed during the recognition of the second level of meaning. But our solution, confirmed by users during the final interview, consider a longer and more structured training phase to overtake these difficulties. 
+			<br>Testers also highlighted the relevance of the design contribution: the sound definition is important not only for the invasive role, but also to guarantee a better comprehension of the message.
+		</div>
+
+		<div class="title">Future Implementation</div>
+		<div class="intro2">
+			Qualitative results obtained from the experiment could be integrated with quantitative answers to validate a complete analysis, with a statistic relevance. Then, it could be useful to organize another user experiment, to test the role of the sonification when included in the whole detection process, also considering the visual part. Once the structure of the sonification is confirmed, it could be interesting trying different sounds considering the new relation between visual and acoustic languages.
+		</div>
+
+<!--		<img class="mappa" src="./assets/structure.png">-->
 
 	</main>
 
-	
+
 	<footer id="fondo">
-		
+
 		<div class="container">
-			<div class="row fondo justify-content-center">
-				
-				<div class="col-3">
+			<div class="row justify-content-center">
+
+				<div class="col-2">
+					<div class="infoTitle">
+						SONIFYING CYBER-ATTACKS ON WATER PLANTS
+					</div>
+					<div class="info">
+						sonification project
+						<br>2018-2019
+					</div>
+				</div>
+
+				<div class="col-2">
 					<div class="infoTitle">
 						Politecnico di Milano
 					</div>
 					<div class="info">
-						Communication Design
-						<br> April, 2019
+						Sara Lenzi
+						<br>Ginevra Terenghi
+						<br>Paolo Ciuccarelli
 					</div>
-				</div>
-
-				<div class="col-3">
+					
+					</div>
+				
+				<div class="col-2">
 					<div class="infoTitle">
-						Candidate: Ginevra Terenghi
+						Singapore University of Technology and Design
 					</div>
 					<div class="info">
-						Supervisor: Paolo Ciuccarelli
-						<br>Tutor: Sara Lenzi
+						Riccardo Taormina
+						<br>Stefano Galelli
 					</div>
 				</div>
-
-				<div class="col-3">
-					<div class="infoTitle">
-						Master Thesis:
-					</div>
-					<div class="info">
-						Sonificazione dei dati e sicurezza informatica nelle reti di distribuzione idrica.<br>Il caso C-Town
-					</div>
-				</div>
-
-				<div class="col-3">
+				
+				<div class="col-2">
 					<div class="infoTitle">
 						Density Design Lab
 					</div>
 					<div class="infoLogo">
-						<img class="footer_img" src="./assets/logo-density.png">
+						<img class="footer_img" src="./assets/logo-dd.png">
+					</div>
+				</div>
+				
+				<div class="col-2">
+					<div class="infoTitle">
+						Engineering Systems Dep
+					</div>
+					<div class="infoLogo">
+						<img class="footer_img" src="./assets/logo-s.png">
 					</div>
 				</div>
 
 			</div>
 		</div>
-		
-	</footer>
 
+	</footer>
 	
+		
+
+
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
