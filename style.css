@@ -117,13 +117,19 @@ main {
 .mappa {
 	margin-top: 3vh;
 	margin-bottom: 3vh;
-	width: 300px;
+	width: 50%;
 }
 
 .viz {
 	margin-top: 3vh;
 	margin-bottom: 3vh;
 	width: 100%;
+}
+
+.viz2 {
+	margin-top: 3vh;
+	margin-bottom: 3vh;
+	width: 80%;
 }
 
 
@@ -157,6 +163,19 @@ main {
 	line-height: 1.2rem;
 	color: dimgray;
 }
+
+.bib1 {
+	font-family: 'Helvetica';
+	font-weight: 100;
+	font-size: 0.8rem;
+	padding-top: 1rem;
+	margin-bottom: 1rem;
+	text-align: left;
+	line-height: 1.2rem;
+	color: dimgray;
+}
+
+
 
 /* FIRST PAGE */
 /* text */
@@ -348,7 +367,7 @@ figcaption {
 		font-size: 0rem;
 	}
 	.intro {
-		font-size: 1rem;
+		font-size: 1.1rem;
 		line-height: 1.7rem;
 	}
 	.intro2 {
